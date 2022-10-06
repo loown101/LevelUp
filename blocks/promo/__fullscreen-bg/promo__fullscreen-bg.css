@@ -1,0 +1,44 @@
+.promo__fullscreen-bg {
+  overflow: hidden;
+  z-index: -100;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding-top: 50%;
+}
+
+@media (max-width: 1439px) {
+  .promo__fullscreen-bg {
+    padding-top: 60%;
+  }
+}
+
+@media (max-width: 1239px) {
+  .promo__fullscreen-bg {
+    padding-top: 70%;
+  }
+}
+
+@media (max-width: 979px) {
+  .promo__fullscreen-bg {
+    padding-top: 85%;
+  }
+}
+
+@media (max-width: 559px) {
+  .promo__fullscreen-bg {
+    padding-top: 140%;
+  }
+}
+
+@media (max-width: 499px) {
+  .promo__fullscreen-bg {
+    padding-top: 180%;
+  }
+}
+
+@media (max-width: 399px) {
+  .promo__fullscreen-bg {
+    padding-top: 200%;
+  }
+}

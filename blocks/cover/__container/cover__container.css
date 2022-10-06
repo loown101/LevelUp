@@ -1,0 +1,17 @@
+.cover__container {
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: space-between;
+
+  background-image: url(../../../image/bg-img.jpg);
+
+  padding: 20px 60px 20px 60px
+}
+
+@media (max-width: 399px) {
+  .cover__container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

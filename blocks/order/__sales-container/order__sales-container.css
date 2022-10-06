@@ -1,0 +1,13 @@
+.order__sales-container {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+@media (max-width: 1279px) {
+  .order__sales-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

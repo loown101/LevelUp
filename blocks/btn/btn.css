@@ -1,0 +1,34 @@
+.btn {
+  max-width: 240px;
+  height: 80px;
+
+  width: 100%;
+
+  background-color: rgb(166, 104, 224);
+  border: solid 2px rgb(134, 71, 192);
+  border-radius: 10px;
+
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 261%;
+
+  color: #ffffff;
+
+  cursor: pointer;
+}
+
+.btn:visited {
+  background-color: rgb(60, 36, 82);
+}
+
+.btn:hover {
+  background-color: rgb(134, 71, 192);
+}
+
+
+@media (max-width: 989px) {
+  .btn {
+    max-width: 180px;
+    height: 60px;
+  }
+}

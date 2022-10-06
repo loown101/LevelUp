@@ -1,0 +1,26 @@
+.animate-reduce {
+  height: 72px;
+
+  line-height: 72px;
+  background: none;
+
+  animation: animate_reduce 2s infinite;
+}
+
+.animate-reduce:hover {
+  animation: none;
+}
+
+@keyframes animate_reduce {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(0.95, 0.95, 0.95);
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}

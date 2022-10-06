@@ -1,0 +1,11 @@
+.promo__item_stars {
+  display: block;
+
+  max-width: 30px;
+  width: 100%;
+
+  background-image: url('../../../../image/icons-stars.png');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}

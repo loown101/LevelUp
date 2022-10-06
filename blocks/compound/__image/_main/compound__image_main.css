@@ -1,0 +1,24 @@
+.compound__image_main {
+  max-width: 280px;
+  height: auto;
+
+  width: 100%;
+}
+
+@media (max-width: 1279px) {
+  .compound__image_main {
+    max-width: 240px;
+  }
+}
+
+@media (max-width: 1079px) {
+  .compound__image_main {
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 859px) {
+  .compound__image_main {
+    display: none;
+  }
+}

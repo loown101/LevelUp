@@ -1,0 +1,14 @@
+.review {
+  box-sizing: border-box;
+}
+
+
+.review:nth-child(n) {
+  padding: 0 12% 10% 12%;
+}
+
+@media (max-width: 420px) {
+  .review:nth-child(n) {
+    padding: 0;
+  }
+}

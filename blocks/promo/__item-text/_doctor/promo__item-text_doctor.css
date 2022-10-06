@@ -1,0 +1,7 @@
+.promo__item-text_doctor {
+  grid-area: description;
+
+  line-height: 150%;
+
+  text-align: start;
+}

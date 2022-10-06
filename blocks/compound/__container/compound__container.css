@@ -1,0 +1,15 @@
+.compound__container {
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 100%;
+}
+
+@media (max-width: 799px) {
+  .compound__container {
+    flex-direction: column;
+  }
+}

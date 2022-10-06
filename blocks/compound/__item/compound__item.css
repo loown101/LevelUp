@@ -1,0 +1,11 @@
+.compound__item {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  max-width: 240px;
+  width: 100%;
+
+  margin-bottom: 20px;
+}

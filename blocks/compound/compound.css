@@ -1,0 +1,8 @@
+.compound {
+  display: flex;
+  flex-direction: column;
+}
+
+.compound:nth-child(n) {
+  padding: 10% 12% 10% 12%;
+}

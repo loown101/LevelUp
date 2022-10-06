@@ -1,0 +1,6 @@
+.promo__btn_doctor {
+  grid-area: btn;
+
+  align-self: end;
+  justify-self: end;
+}

@@ -1,0 +1,17 @@
+.promo__title_doctor {
+  font-size: 42px;
+
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .promo__title_doctor {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 420px) {
+  .promo__title_doctor {
+    font-size: 28px;
+  }
+}

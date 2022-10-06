@@ -1,0 +1,4 @@
+.promo__container {
+  display: grid;
+  justify-items: center;
+}

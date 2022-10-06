@@ -1,0 +1,29 @@
+.promo__title {
+  margin: 0;
+  padding: 0;
+
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+
+  letter-spacing: 2px;
+
+  color: #ffffff;
+
+  grid-area: heading;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .promo__title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 420px) {
+  .promo__title {
+    font-size: 28px;
+  }
+}

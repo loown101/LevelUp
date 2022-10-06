@@ -1,0 +1,7 @@
+.menu {
+  display: flex;
+  align-items: center;
+
+  max-width: 380px;
+  width: 100%;
+}

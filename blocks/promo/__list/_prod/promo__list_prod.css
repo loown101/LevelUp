@@ -1,0 +1,18 @@
+.promo__list_prod {
+  align-self: start;
+  justify-self: start;
+}
+
+@media (max-width: 559px) {
+  .promo__list_prod {
+    display: flex;
+    flex-direction: column;
+
+    align-self: center;
+    justify-self: center;
+
+    width: 70%;
+
+    margin-top: 50px;
+  }
+}

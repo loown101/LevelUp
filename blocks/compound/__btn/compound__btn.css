@@ -1,0 +1,9 @@
+.compound__btn {
+  align-self: flex-end;
+}
+
+@media (max-width: 799px) {
+  .compound__btn {
+    align-self: center;
+  }
+}

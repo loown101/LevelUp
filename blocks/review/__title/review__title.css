@@ -1,0 +1,27 @@
+.review__title {
+  margin: 0;
+  padding: 0;
+
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 261%;
+
+  color: #F7F7F7;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .review__title {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 420px) {
+  .review__title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}

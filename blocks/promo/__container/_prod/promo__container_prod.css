@@ -1,0 +1,16 @@
+.promo__container_prod {
+  grid-template-columns: 1fr 1fr;
+
+  grid-template-areas:
+    "heading heading"
+    "image text"
+    "image btn";
+}
+
+@media (max-width: 559px) {
+  .promo__container_prod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

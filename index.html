@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LevelUp</title>
+  <link rel="shortcut icon" href="./image/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="./page/page.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+  <script src="https://unpkg.com/imask"></script>
+</head>
+
+<body class="page">
+  <header class="cover">
+    <div class="cover__container">
+      <img src="./image/logo.png" alt="LevelUp" class="cover__logo">
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#promo-main" class="menu__link">Промо</a>
+          </li>
+          <li class="menu__item">
+            <a href="#review" class="menu__link">Отзывы</a>
+          </li>
+          <li class="menu__item">
+            <a href="#order" class="menu__link">Заказать</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="promo" id="promo-main">
+      <div class="promo__fullscreen-bg">
+        <div class="promo__overlay">
+          <div class="promo__container promo__container_prod">
+            <h1 class="promo__title">LevelUp</h1>
+            <img src="./image/prod.png" alt="LevelUp" class="promo__image">
+            <ul class="promo__list promo__list_prod">
+              <li class="promo__item">
+                <span class="promo__item_stars"></span>
+                <span class="promo__item-text">Укрепляет здоровье</span>
+              </li>
+              <li class="promo__item">
+                <span class="promo__item_stars"></span>
+                <span class="promo__item-text">Поднимает настроение</span>
+              </li>
+              <li class="promo__item">
+                <span class="promo__item_stars"></span>
+                <span class="promo__item-text">Дает заряд бодрости</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <video loop="" muted="" autoplay="" poster="video/plane.jpg" class="promo__fullscreen-bg-video">
+          <source
+            src="./video/vecteezy-elegant-gold-color-day-left-youtube-luxury-grand-opening-8157558-4-cs39_B3tsitNs.mp4"
+            type="video/mp4">
+        </video>
+      </div>
+      <button type="button" class="btn btn_scroll promo__btn promo__btn_product">Заказать</button>
+    </section>
+    <section class="compound background-gradient-top">
+      <h2 class="title">Состав:</h2>
+      <div class="compound__container">
+        <ul class="compound__list">
+          <li class="compound__item">
+            <img src="./image/vitamins.jpg" alt="Витамины" class="compound__image">
+            <p class="compound__text">Витамины</p>
+          </li>
+          <li class="compound__item">
+            <img src="./image/macro.png" alt="Минеральные вещества" class="compound__image">
+            <p class="compound__text">Минералы</p>
+          </li>
+          <li class="compound__item">
+            <img src="./image/acid.jpg" alt="Органические кислоты" class="compound__image">
+            <p class="compound__text">Кислоты</p>
+          </li>
+        </ul>
+        <img src="./image/prod.png" alt="БАД" class="compound__image_main">
+        <ul class="compound__list">
+          <li class="compound__item">
+            <img src="./image/micro.jpg" alt="Микроэлементы" class="compound__image">
+            <p class="compound__text">Микроэлементы</p>
+          </li>
+          <li class="compound__item">
+            <img src="./image/bio.jpg" alt="Биофлавоноиды" class="compound__image">
+            <p class="compound__text">Биофлавоноиды</p>
+          </li>
+          <li class="compound__item">
+            <img src="./image/amins.jpg" alt="Аминокислоты" class="compound__image">
+            <p class="compound__text">Аминокислоты</p>
+          </li>
+        </ul>
+      </div>
+      <button type="button" class="btn btn_scroll compound__btn">Заказать</button>
+    </section>
+    <section class="review background-gradient-bottom" id="review">
+      <h2 class="title">Отзывы:</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper review__container">
+          <div class="swiper-slide review__card">
+            <img src="./image/user1.jpg" alt="Яи Мико" class="review__image">
+            <h3 class="review__title">Яи Мико</h3>
+            <p class="review__text">Я уже писала, что в поисках средства для здоровья волос и ногтей, я перепробовала
+              все,
+              что только можно
+              было.
+              Это и гормональные препараты, и антибиотики, и разные лосьоны и гели.
+              Но ничего не помогало.
+              И вот, в один прекрасный день, моя подруга рассказала мне об этом БАДе, который ей помог.
+              Она купила его в аптеке, по совету фармацевта.
+              Вот так он выглядит.
+              В состав входит экстракт солодки, салициловая кислота, витамин Е. По инструкции, принимать нужно по 1
+              капсуле 3 раза в день.
+              Спустя месяц мое самочувствие улучшилось.</p>
+          </div>
+          <div class="swiper-slide review__card">
+            <img src="./image/user2.jpg" alt="Сангономия Кокоми" class="review__image">
+            <h3 class="review__title">Сангономия Кокоми</h3>
+            <p class="review__text">Решила написать свой отзыв о БАДе "LevelUp".
+              Принимала я его давно, осенью прошлого года.
+              Начала принимать в целях профилактики.
+              В составе: рыбий жир, витамины.
+              Я принимала по 1 капсуле 2 раза в день во время еды.
+              Рыбий жир принимала в качестве профилактики атеросклероза, а также с целью профилактики развития
+              заболеваний
+              сердца и сосудов.
+              Витамины принимала с целью укрепления иммунитета.</p>
+          </div>
+          <div class="swiper-slide review__card">
+            <img src="./image/user3.jpeg" alt="Джинн Гуннхильдр" class="review__image">
+            <h3 class="review__title">Джинн Гуннхильдр</h3>
+            <p class="review__text">В декабре 2021 г. я обратилась в клинику на консультацию по поводу приема БАДа
+              «LevelUp».
+              Врач назначил курс лечения.
+              После первого курса приема препарата, самочувствие мое улучшилось.
+              При приеме препарата «LevelUp» у меня улучшился сон, исчезли головные боли, нормализовалось пищеварение,
+              повысилась работоспособность, улучшились показатели крови.
+              Я стала лучше себя чувствовать.
+              Препарат «LevelUp» мне очень помог.
+              Рекомендовала его всем своим знакомым и родным.</p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <section class="promo background-gradient-top">
+      <div class="promo__container promo__container_doctor">
+        <h2 class="promo__title promo__title_doctor">Наши рекомендации</h2>
+        <img src="./image/doctor.png" alt="LevelUp" class="promo__image">
+        <p class="promo__item-text promo__item-text_doctor">
+          Рекомендуем БАД к пище.
+          В составе продукта: экстракт травы зверобоя, экстракт листьев розмарина.
+          Рекомендации по применению: взрослым по 2 капсулы 2 раза в день во время еды.
+          Продолжительность приема – 1 месяц.
+          Пищевая ценность на 100 г продукта: белки – 6,0 г, углеводы – 8,0 г. Энергетическая ценность на 100г продукта:
+          80 ккал/320 кДж.
+          Противопоказания: индивидуальная непереносимость компонентов БАДа, при беременности, кормлении грудью,
+          нарушениях углеводного обмена, сахарном диабете.
+        </p>
+        <ul class="promo__list promo__list_doctor">
+          <li class="promo__item">
+            <span class="promo__item_stars"></span>
+            <span class="promo__item-text promo__item-text_doctor">Укрепляет здоровье</span>
+          </li>
+          <li class="promo__item">
+            <span class="promo__item_stars"></span>
+            <span class="promo__item-text promo__item-text_doctor">Поднимает настроение</span>
+          </li>
+          <li class="promo__item">
+            <span class="promo__item_stars"></span>
+            <span class="promo__item-text promo__item-text_doctor">Дает заряд бодрости</span>
+          </li>
+        </ul>
+        <button type="button" class="btn btn_scroll promo__btn promo__btn_doctor">Заказать</button>
+      </div>
+    </section>
+    <section class="order background-gradient-bottom" id="order">
+      <div class="order__container">
+        <h2 class="title">LevelUp</h2>
+        <div class="timer">
+          <div class="timer__items">
+            <div class="timer__item timer__minutes">00</div>
+            <div class="timer__item timer__seconds">00</div>
+          </div>
+        </div>
+        <div class="order__sales-container">
+          <div class="order__sales">
+            <img src="./image/prod.png" alt="LevelUp" class="order__image">
+            <p class="order__sale order__sale_new animate-reduce">1500 рублей</p>
+            <p class="order__sale order__sale_old">2000 рублей</p>
+          </div>
+          <form action="#" class="order__form">
+            <div>
+              <h3 class="title">Оформить заказ</h3>
+              <input class="order__input" type="text" placeholder="Имя">
+              <input class="order__input" id="phone" type="text" placeholder="89000000000">
+            </div>
+            <button type="submit" class="btn order__button">Оформить</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="cover__container">
+      <img src="./image/logo.png" alt="LevelUp" class="cover__logo">
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link">О нас</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Контакты</a>
+          </li>
+          <li class="menu__item">
+            <a href="#order" class="menu__link">Заказать</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+  <script src="./scripts/timer.js"></script>
+  <script src="./scripts/index.js"></script>
+</body>
+
+</html>

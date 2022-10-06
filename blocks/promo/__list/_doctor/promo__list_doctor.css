@@ -1,0 +1,21 @@
+.promo__list_doctor {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 699px) {
+  .promo__list_doctor {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+
+
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,23 @@
+.review__text {
+  margin: 0;
+  padding: 0;
+
+  width: 80%;
+
+  font-weight: 400;
+  font-size: 23px;
+
+  color: #F7F7F7;
+}
+
+@media (max-width: 768px) {
+  .review__text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .review__text {
+    font-size: 18px;
+  }
+}

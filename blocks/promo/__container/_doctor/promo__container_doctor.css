@@ -1,0 +1,22 @@
+.promo__container_doctor {
+  box-sizing: border-box;
+
+  grid-template-areas:
+    "heading heading"
+    "image description"
+    "text text"
+    "btn btn";
+
+  padding: 0 10% 12% 10%;
+}
+
+@media (max-width: 1287px) {
+  .promo__container_doctor {
+    grid-template-areas:
+      "heading"
+      "image"
+      "description"
+      "text"
+      "btn";
+  }
+}
